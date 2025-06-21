@@ -13,7 +13,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAIEmb
 import os
 
 # Initialize language model
-os.environ['GOOGLE_API_KEY'] = 'AIzaSyCZzP0VvwxOW3LQSEGD5Gt0YwR4XM9ghJo'
+os.environ['GOOGLE_API_KEY'] = 'Gemini-api-key'
 llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", temperature=0.7, top_p=0.85)
 embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
 
